@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    font-family: "Roboto";
+}
+
+.bg-color {
+    background-image: linear-gradient(to right, #f3eaff, #dac0ff);
+
+    background-size: cover;
+    width: 400px;
+}
+
+.test-heading {
+    color: #690cb0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.test-para {
+    color: #3e4c59;
+}
+
+.clock-style {
+    width: 50px;
+}
+
+.seconds-style {
+    font-size: 45px;
+    color: #3e4c59;
+}
+
+.heading1 {
+    font-size: 15px;
+    color: #323f4b;
+    user-select: none;
+}
+
+.card {
+    background-color: #f2ebfe;
+    border-radius: 10px;
+    width: 350px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9aa5b1;
+}
+
+.answer-text {
+    font-size: 23px;
+    color: #3e4c59;
+}
+
+.submit-style {
+    background-color: #690cb0;
+    border-width: 0;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.reset-style {
+    background-color: #ffffff;
+    border-width: 0;
+    color: #323f4b;
+    border-radius: 5px;
+}
