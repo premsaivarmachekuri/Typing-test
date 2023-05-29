@@ -43,7 +43,7 @@ submitBtnEl.addEventListener("click", function(event) {
         console.log(count);
         resultEl.textContent = "You typed in " + count + " seconds";
     } else {
-        resultEl.textContent = "You typed incorrect answer";
+        resultEl.textContent = "You typed incorrect answer!";
     }
 });
 resetBtnEl.addEventListener("click", function(event) {
